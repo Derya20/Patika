@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+
 /*
 Formula
 
@@ -8,6 +10,7 @@ Alan * Alan = 𝑢 * (𝑢 − 𝑎)* (𝑢 − 𝑏) * (𝑢 − 𝑐)
 
  */
 public class UcgenAlan {
+
     public static void main(String[] args) {
 
         int kenar1, kenar2,kenar3,cevre,  u;
@@ -31,7 +34,6 @@ public class UcgenAlan {
 
         System.out.println("Üçgenin çevresi :"+cevre);
         System.out.println("Girdiğiniz verilere göre üçgenin alanı :"+alan);
-
 
 
 

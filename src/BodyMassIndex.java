@@ -16,5 +16,8 @@ public class BodyMassIndex {
         index =kilo/(boy*boy);
         System.out.print("Vücut Kitle İndeksiniz : "+ index);
 
+
+
+
     }
 }

@@ -22,19 +22,14 @@ public class PrimeNumbers {
             if (result !=0){
                 System.out.println("It's a prime number");
             }
-
         }
-
-
         switch (number) {
             case 0, 1 -> System.out.println("Not a prime!");
             case 2 -> System.out.println("It's a prime!");
 
         }
 
-
         prime();
-
     }
     public static void main(String[] args) {
 

@@ -1,22 +1,24 @@
+package FirstPart;
+
 import java.util.Scanner;
 public class Calculate {
     public static void main(String[] args) {
-        int mat, fızık,kımya,turkce,tarıh,muzık;
-        Scanner verıAl =new Scanner(System.in);
+        int mat, fizik, kimya,turkce, tarih, muzik;
+        Scanner veriAl =new Scanner(System.in);
         System.out.println("Lütfen matematik notunuzu giriniz: ");
-        mat= verıAl.nextInt();
+        mat= veriAl.nextInt();
         System.out.println("Lütfen fizik notunuzu giriniz: ");
-        fızık = verıAl.nextInt();
+        fizik = veriAl.nextInt();
         System.out.println("Lütfen kimya notunuzu giriniz: ");
-        kımya= verıAl.nextInt();
+        kimya = veriAl.nextInt();
         System.out.println("Lütfen türkçe notunuzu giriniz: ");
-        turkce= verıAl.nextInt();
+        turkce= veriAl.nextInt();
         System.out.println("Lütfen tarih notunuzu giriniz: ");
-        tarıh= verıAl.nextInt();
+        tarih = veriAl.nextInt();
         System.out.println("Lütfen müzik notunuzu giriniz: ");
-        muzık= verıAl.nextInt();
-        int toplam= mat+ fızık +kımya+turkce+tarıh+muzık;
-        double sonuc=(toplam)/6;
+        muzik = veriAl.nextInt();
+        int toplam= mat+ fizik + kimya +turkce+ tarih + muzik;
+        int sonuc=(toplam)/6;
         System.out.println("Ortalama : "+sonuc);
 
        if (sonuc >60){

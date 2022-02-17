@@ -1,3 +1,5 @@
+package FirstPart;
+
 import java.util.Scanner;
 
 public class KDV {
@@ -18,10 +20,10 @@ public class KDV {
 
         kdvTutar=(kdvOran*tutar);
 
-        System.out.println("KDV'li fiyat: "+(tutar+kdvTutar));
-        System.out.println("KDV'siz fiyat: "+tutar);
-        System.out.println("KDV tutarı: "+kdvTutar);
-        System.out.println("KDV oranı : "+kdvOran);
+        System.out.println("FirstPart.KDV'li fiyat: "+(tutar+kdvTutar));
+        System.out.println("FirstPart.KDV'siz fiyat: "+tutar);
+        System.out.println("FirstPart.KDV tutarı: "+kdvTutar);
+        System.out.println("FirstPart.KDV oranı : "+kdvOran);
 
        // System.out.println(kdvTutar);
 

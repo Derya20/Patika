@@ -1,3 +1,5 @@
+package FirstPart;
+
 import java.util.Scanner;
 /*
 Java ile mesafeye ve şartlara göre uçak bileti fiyatı hesaplayan programı yapın.

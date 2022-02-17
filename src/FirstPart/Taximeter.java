@@ -1,3 +1,5 @@
+package FirstPart;
+
 import java.util.Scanner;
 /*
 Java ile gidilen mesafeye (KM) göre taksimetre tutarını ekrana yazdıran programı yazın.

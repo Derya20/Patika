@@ -15,13 +15,16 @@ public class GuessNumber {
 
 
         Scanner scan=new Scanner(System.in);
+
+
         while (count<3){
-            number=(int)(Math.random()*100);
-            System.out.print("Please enter a number: ");
+            number=(int)(Math.random()*10)+1;
+            System.out.print("Please enter a number between 1-10: ");
             value=scan.nextInt();
             if (number==value){
                 System.out.println(number+ " - "+ value);
                 System.out.println("You win!");
+                break;
             }else
                 System.out.println(number+ " - "+ value);
                 System.out.println("You lost! ");

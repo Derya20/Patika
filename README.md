@@ -1,3 +1,3 @@
 # Patika
-gradePointAverage
+This repo includes Patika homeworks and more.
 

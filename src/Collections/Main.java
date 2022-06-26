@@ -1,18 +1,20 @@
 package Collections;
 
+
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
 
-        Book book1 = new Book("War and Peace", 1225, "Tolstoy", 1867);
+        Book book1 = new Book("War and Peace", 122, "Tolstoy", 1867);
         Book book2 = new Book("Crime and Punishment", 576, "Dostoevsky", 1866);
         Book book3 = new Book("Utopia", 359, "Thomas More", 1516);
         Book book4 = new Book("Alice in WonderLand", 208, "Lewis Carroll",1865);
         Book book5 = new Book("The Brothers Karamazov", 840, "Dostoevsky",1879);
 
-        TreeSet<Book> bookSetName = new TreeSet<>();
+        HashSet<Book> bookSetName = new HashSet<>();
 
         bookSetName.add(book1);
         bookSetName.add(book2);
@@ -26,12 +28,7 @@ public class Main {
 
         System.out.println("======================================");
 
-        TreeSet<Book> bookSetPageNum = new TreeSet<>(new Comparator<Book>() {
-            @Override
-            public int compare(Book b1, Book b2) {
-                return b1.getPageNum() - b2.getPageNum();
-            }
-        }.reversed());
+        TreeSet<Book> bookSetPageNum = new TreeSet<>(Comparator.comparingInt(Book::getPageNum));
 
         bookSetPageNum.add(book1);
         bookSetPageNum.add(book2);

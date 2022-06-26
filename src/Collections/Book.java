@@ -24,13 +24,7 @@ public class Book implements Comparable<Book>{
         return pageNum;
     }
 
-    public String getWriterName() {
-        return writerName;
-    }
 
-    public int getPublishDate() {
-        return publishDate;
-    }
 
 
     @Override

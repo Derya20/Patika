@@ -1,3 +1,5 @@
-# Patika
-This repo includes Patika homeworks and more.
+# *Patika*
+
+## This repository includes ***[Patika.dev](https://www.patika.dev/tr)*** homeworks .
+
 
